@@ -1,0 +1,163 @@
+
+// Custom styles
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+h1, h2, h3 {
+  color: #007bff;
+}
+
+.top-bar {
+  background-color: #343a40;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.top-bar .contact-info span {
+  margin-right: 1rem;
+}
+
+.top-bar .social-media a {
+  color: #fff;
+  margin-left: 0.5rem;
+  font-size: 18px;
+}
+
+.top-bar .social-media {
+  margin-left: -0.5rem;
+}
+
+.top-bar .contact-info span {
+  font-size: 18px;
+}
+
+.logo-text{
+ color: #000;
+ font-family: "Source Serif 4";
+ text-decoration: none;
+ text-transform: uppercase;
+ font-weight: 600;
+ font-size: 20px;
+}
+
+.logo-text .a-letter {
+  color: #E06611;
+  font-size: 30px;
+}
+.logo-text .p-letter {
+  font-size: 30px;
+  color: #742B2B;
+}
+
+.header-content {
+  color: #fff;
+  text-align: center;
+}
+
+.header-content .logo {
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+
+.header-content h1 {
+  font-size: 2.5rem;
+}
+
+.header-content p {
+  font-size: 1.25rem;
+}
+
+.carousel-item img {
+  height: 550px;
+  object-fit: cover;
+}
+
+.carousel-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); // Add this line for dark overlay
+  }
+
+section {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section p, section ul {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+section ul {
+  padding-left: 1.5rem;
+}
+
+section ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+footer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  footer ul li a {
+    color: #fff; /* White color */
+    text-decoration: none; /* No text decoration */
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline; /* Optional: underline on hover */
+  }
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+footer .social-media {
+    margin-top: 1rem;
+  }
+  
+  footer .social-media a {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  footer .social-media a:hover {
+    color: #007bff; /* Optional: change color on hover */
+  }
